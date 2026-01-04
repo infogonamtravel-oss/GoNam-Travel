@@ -1,57 +1,141 @@
-/* GENERAL */
-*{margin:0;padding:0;box-sizing:border-box;}
-body{font-family:'Roboto',sans-serif;color:#333;background:#fefefe;scroll-behavior:smooth;}
-h2,h3{font-family:'Poppins',sans-serif;}
+*{margin:0;padding:0;box-sizing:border-box}
 
-.header{display:flex;justify-content:space-between;align-items:center;padding:15px 50px;background:linear-gradient(90deg,#00c6ff,#0072ff);position:sticky;top:0;z-index:100;box-shadow:0 4px 6px rgba(0,0,0,0.1);}
-.header .logo img{height:60px;}
-.nav-links{list-style:none;display:flex;gap:25px;}
-.nav-links li a{text-decoration:none;color:white;font-weight:600;transition:.3s;}
-.nav-links li a:hover{color:#ffdd59;transform:scale(1.1);}
+body{
+font-family:'Montserrat',sans-serif;
+background:#fff;
+color:#222;
+}
 
-/* HERO */
-.hero-section{position:relative;height:90vh;overflow:hidden;}
-.hero-section .hero-img{width:100%;height:100%;object-fit:cover;filter:brightness(70%);}
-.hero-overlay{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);text-align:center;color:#fff;padding:0 20px;}
-.hero-overlay h1{font-size:3.5rem;margin-bottom:20px;font-weight:700;text-shadow:2px 2px 8px rgba(0,0,0,0.7);}
-.hero-overlay p{font-size:1.5rem;margin-bottom:25px;text-shadow:1px 1px 6px rgba(0,0,0,0.7);}
-.btn{padding:12px 30px;background:#ffdd59;color:#333;text-decoration:none;font-weight:bold;border-radius:50px;transition:.3s;}
-.btn:hover{background:#ffd700;transform:scale(1.05);}
+.header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 60px;
+background:linear-gradient(90deg,#0099ff,#0044cc);
+position:sticky;
+top:0;
+z-index:999;
+}
 
-/* TOURS */
-.tours-section{padding:60px 50px;}
-.tours-section h2{text-align:center;margin-bottom:50px;font-size:2.5rem;color:#0072ff;}
-.tour-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:30px;}
-.tour-card{background:#fff;border-radius:15px;overflow:hidden;box-shadow:0 8px 20px rgba(0,0,0,0.1);transition:transform .3s,box-shadow .3s;}
-.tour-card:hover{transform:translateY(-10px);box-shadow:0 15px 25px rgba(0,0,0,0.2);}
-.tour-card img{width:100%;height:250px;object-fit:cover;}
-.tour-card h3{padding:15px;color:#0072ff;}
-.tour-card p{padding:0 15px 20px 15px;font-size:0.95rem;color:#555;line-height:1.5;}
+.logo{height:60px}
 
-/* WHY CHOOSE US */
-.why-us-section{background:linear-gradient(90deg,#00c6ff,#0072ff);color:white;text-align:center;padding:60px 20px;}
-.why-us-section h2{font-size:2.5rem;margin-bottom:20px;}
-.why-us-section p{max-width:700px;margin:0 auto;font-size:1.2rem;line-height:1.6;}
+nav a{
+color:white;
+margin-left:30px;
+text-decoration:none;
+font-weight:600;
+}
 
-/* CONTACT */
-.contact-section{padding:60px 50px;background:#f5f7fa;text-align:center;}
-.contact-section h2{font-size:2.5rem;margin-bottom:30px;color:#0072ff;}
-.contact-section form{display:flex;flex-direction:column;max-width:600px;margin:0 auto 20px;gap:15px;}
-.contact-section input,.contact-section textarea{padding:12px 15px;border-radius:8px;border:1px solid #ccc;font-size:1rem;resize:vertical;}
-.contact-section button{padding:12px 20px;border:none;border-radius:50px;background:#0072ff;color:white;font-weight:600;cursor:pointer;transition:.3s;}
-.contact-section button:hover{background:#005bb5;}
+.hero{
+height:90vh;
+background:url("https://images.unsplash.com/photo-1508599589928-dc8de8b503c6?auto=format&fit=crop&w=2000&q=80") center/cover no-repeat;
+display:flex;
+align-items:center;
+justify-content:center;
+}
 
-/* FOOTER */
-.footer{text-align:center;padding:25px 20px;background:#0072ff;color:white;font-weight:500;}
+.hero-text{
+text-align:center;
+color:white;
+background:rgba(0,0,0,.45);
+padding:40px;
+border-radius:15px;
+}
 
-/* WHATSAPP BUTTON */
-.whatsapp-button{position:fixed;bottom:25px;right:25px;z-index:100;width:60px;height:60px;transition:.3s;}
-.whatsapp-button img{width:100%;height:100%;}
-.whatsapp-button:hover{transform:scale(1.1);}
+.hero-text h1{
+font-family:'Poppins';
+font-size:64px;
+font-weight:800;
+}
 
-/* RESPONSIVE */
-@media (max-width:768px){
-  .header{flex-direction:column;gap:15px;}
-  .hero-overlay h1{font-size:2.2rem;}
-  .hero-overlay p{font-size:1.1rem;}
+.hero-text h2{
+font-size:28px;
+margin:15px 0;
+}
+
+.hero-btn{
+display:inline-block;
+padding:14px 40px;
+background:#ffcc00;
+color:black;
+border-radius:50px;
+text-decoration:none;
+font-weight:700;
+}
+
+.section-title{
+text-align:center;
+font-size:40px;
+margin:60px 0;
+font-family:'Poppins';
+color:#0044cc;
+}
+
+.tour-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+gap:30px;
+padding:0 60px 80px;
+}
+
+.tour-card{
+border-radius:18px;
+overflow:hidden;
+box-shadow:0 10px 30px rgba(0,0,0,.15);
+transition:.3s;
+background:white;
+}
+
+.tour-card:hover{
+transform:translateY(-10px);
+}
+
+.tour-card img{
+width:100%;
+height:260px;
+object-fit:cover;
+}
+
+.tour-card h3{
+font-family:'Poppins';
+font-size:22px;
+color:#0044cc;
+padding:15px;
+}
+
+.tour-card p{
+padding:0 15px 20px;
+line-height:1.6;
+}
+
+.why{
+background:linear-gradient(90deg,#0044cc,#0099ff);
+color:white;
+text-align:center;
+padding:80px 30px;
+}
+
+.why h2{
+font-size:42px;
+font-family:'Poppins';
+}
+
+.contact{
+text-align:center;
+padding:60px;
+background:#f4f7fb;
+}
+
+footer{
+background:#0044cc;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+.whatsapp{
+position:fixed;
+bottom:25px;
+right:25px;
+width:60px;
 }
