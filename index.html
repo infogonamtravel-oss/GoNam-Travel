@@ -1,251 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>GONAM TRAVEL | Your Vietnam, Your Way</title>
-  <link rel="stylesheet" href="style.css" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Playfair+Display:wght@700&display=swap"
-    rel="stylesheet"
-  />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GoNam Travel - Your Vietnam, Your Way</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-  <!-- NAVBAR -->
-  <header class="navbar">
-    <div class="container nav-container">
-      <a href="#hero" class="logo-link"
-        ><img src="assets/logo.jpg" alt="GONAM TRAVEL Logo" class="logo-img"
-      /></a>
-      <nav>
-        <ul class="nav-links">
-          <li><a href="#tours">Tours</a></li>
-          <li><a href="#why">Why Us</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="logo">
+      <img src="https://i.ibb.co/7Y7S1K7/gonam-logo.jpg" alt="GoNam Travel Logo">
     </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#tours">Tours</a></li>
+        <li><a href="#why-us">Why Choose Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
   </header>
 
   <!-- HERO SECTION -->
   <section id="hero" class="hero-section">
-    <div class="container hero-container">
-      <div class="hero-text">
-        <h1>GONAM TRAVEL</h1>
-        <p class="hero-subtitle">Your Vietnam, Your Way.</p>
-        <a href="#tours" class="btn btn-primary">Explore Our Tours</a>
+    <div class="hero-overlay">
+      <h1>Explore Vietnam with GoNam Travel</h1>
+      <p>Your Vietnam, Your Way</p>
+      <a href="#tours" class="btn">View Tours</a>
+    </div>
+    <img src="https://images.unsplash.com/photo-1508599589928-dc8de8b503c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1920" alt="Vietnam Panorama" class="hero-img">
+  </section>
+
+  <!-- TOURS SECTION -->
+  <section id="tours" class="tours-section">
+    <h2>Our Tours</h2>
+    <div class="tour-grid">
+
+      <!-- Hanoi -->
+      <div class="tour-card">
+        <img src="https://images.unsplash.com/photo-1584362917163-b29cdbb4383a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800" alt="Hanoi City Tour">
+        <h3>Hanoi City Tour</h3>
+        <p>Explore Hanoi’s rich history and vibrant culture. Visit landmarks like the Temple of Literature, Ho Chi Minh Mausoleum, and One Pillar Pagoda. Stroll through the Old Quarter and relax by Hoan Kiem Lake while enjoying local street food.</p>
       </div>
-      <div class="hero-image">
-        <img
-          src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=900&q=80"
-          alt="Vietnam Travel"
-          loading="lazy"
-        />
+
+      <!-- Halong Bay -->
+      <div class="tour-card">
+        <img src="https://images.unsplash.com/photo-1506214580-4cbd1fa2e7cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800" alt="Halong Bay Cruise">
+        <h3>Halong Bay Cruise</h3>
+        <p>Marvel at the stunning limestone karsts and emerald waters. Choose a day or overnight cruise to enjoy the scenery. Kayak, swim, and savor fresh seafood while surrounded by breathtaking natural beauty.</p>
       </div>
+
+      <!-- Ninh Binh -->
+      <div class="tour-card">
+        <img src="https://images.unsplash.com/photo-1584352041452-4c813541ed4c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800" alt="Ninh Binh">
+        <h3>Ninh Binh Tour</h3>
+        <p>Discover Ninh Binh, the “Halong Bay on land,” with dramatic limestone peaks and rice fields. Visit Bai Dinh Pagoda, Hoa Lu ancient capital, and cruise through Tam Coc or Trang An. Explore caves and enjoy the tranquility of rural Vietnam.</p>
+      </div>
+
+      <!-- Sapa -->
+      <div class="tour-card">
+        <img src="https://images.unsplash.com/photo-1601332424981-3d0a09e82431?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800" alt="Sapa Trip">
+        <h3>Sapa Trip</h3>
+        <p>Trek through terraced rice fields and mountains. Visit Cat Cat Village and Moana, then climb Fansipan Peak, the “Roof of Indochina.” Experience local culture, markets, and fresh mountain air.</p>
+      </div>
+
+      <!-- Ba Na Hills -->
+      <div class="tour-card">
+        <img src="https://images.unsplash.com/photo-1598804507431-7b2d994c9a9a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800" alt="Ba Na Hills">
+        <h3>Ba Na Hills Tour</h3>
+        <p>Walk the Golden Bridge held by giant hands, explore the French Village, and enjoy panoramic cable cars. Stroll through flower gardens and soak in mountain views. Perfect for stunning photos and cool air adventures.</p>
+      </div>
+
+      <!-- Hoi An -->
+      <div class="tour-card">
+        <img src="https://images.unsplash.com/photo-1551882549-2c268f48f5e0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800" alt="Hoi An Tour">
+        <h3>Hoi An Tour</h3>
+        <p>Step into Hoi An’s lantern-lit streets and ancient town charm. Explore old houses, riverside cafes, and local markets. Experience traditional crafts, tailor-made clothes, and authentic Vietnamese cuisine.</p>
+      </div>
+
+      <!-- Coconut Forest -->
+      <div class="tour-card">
+        <img src="https://images.unsplash.com/photo-1545972152-5d252e0c1e07?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800" alt="Coconut Forest Tour">
+        <h3>Coconut Forest/Village Tour</h3>
+        <p>Navigate peaceful waterways in basket boats through lush coconut forests. Observe village life, sample fresh fruits, and enjoy the serenity of the Mekong Delta. A calm and picturesque experience.</p>
+      </div>
+
+      <!-- Hue -->
+      <div class="tour-card">
+        <img src="https://images.unsplash.com/photo-1561047029-3000f68f37cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800" alt="Hue Tour">
+        <h3>Hue Tour</h3>
+        <p>Explore Vietnam’s historic imperial capital. Visit the Imperial Citadel, royal tombs, and Perfume River pagodas. Immerse yourself in history while enjoying scenic river views.</p>
+      </div>
+
+      <!-- Mekong Delta -->
+      <div class="tour-card">
+        <img src="https://images.unsplash.com/photo-1581709116556-62fdbf74d7f7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800" alt="Mekong Delta Tour">
+        <h3>Mekong Delta Tour</h3>
+        <p>Discover vibrant rivers, canals, and floating markets of the Mekong Delta. Cruise through villages, sample tropical fruits, and witness traditional crafts. Experience Vietnam’s agricultural heartland.</p>
+      </div>
+
+      <!-- Phu Quoc -->
+      <div class="tour-card">
+        <img src="https://images.unsplash.com/photo-1570132259576-301c3e5c541f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800" alt="Phu Quoc Tour">
+        <h3>Phu Quoc Tour</h3>
+        <p>Relax on pristine beaches and visit Vin Safari and VinWonders. Enjoy a multi-island trip by speedboat and cable rides. Explore both northern and southern highlights of tropical Phu Quoc.</p>
+      </div>
+
+      <!-- Nha Trang -->
+      <div class="tour-card">
+        <img src="https://images.unsplash.com/photo-1551882549-0b8277e17726?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800" alt="Nha Trang Tour">
+        <h3>Nha Trang Tour</h3>
+        <p>Enjoy Nha Trang’s golden beaches, islands, and water sports. Snorkel, explore local markets, and indulge in fresh seafood. A perfect destination for sun, sea, and unforgettable experiences.</p>
+      </div>
+
     </div>
   </section>
 
   <!-- WHY CHOOSE US -->
-  <section id="why" class="why-section">
-    <div class="container">
-      <h2>Why Choose GONAM TRAVEL?</h2>
-      <div class="why-grid">
-        <article>
-          <h3>Tailor-made Tours</h3>
-          <p>
-            Customize every detail of your Vietnam journey for a truly unique
-            experience.
-          </p>
-        </article>
-        <article>
-          <h3>Experienced Local Guides</h3>
-          <p>
-            Discover authentic culture and hidden gems with our knowledgeable
-            experts.
-          </p>
-        </article>
-        <article>
-          <h3>24/7 Customer Support</h3>
-          <p>We’re here for you anytime before, during, and after your trip.</p>
-        </article>
-        <article>
-          <h3>Best Price Guarantee</h3>
-          <p>
-            Premium experiences at competitive prices with no hidden fees.
-          </p>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- TOURS -->
-  <section id="tours" class="tours-section">
-    <div class="container">
-      <h2>Explore Vietnam Tours</h2>
-
-      <!-- Northern Vietnam -->
-      <h3 class="region-title">Northern Vietnam Tours</h3>
-      <div class="tours-grid">
-        <article class="tour-card">
-          <img
-            src="https://images.unsplash.com/photo-1549887535-5a5f785b4d4d?auto=format&fit=crop&w=800&q=80"
-            alt="Hanoi City Tour"
-            loading="lazy"
-          />
-          <h4>Hanoi City Tour</h4>
-          <p>
-            Wander the vibrant Old Quarter, visit Hoan Kiem Lake, and savor local
-            street food flavors.
-          </p>
-        </article>
-        <article class="tour-card">
-          <img
-            src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=800&q=80"
-            alt="Halong Bay Cruise"
-            loading="lazy"
-          />
-          <h4>Halong Bay Cruise</h4>
-          <p>
-            Sail emerald waters amid limestone karsts on a breathtaking UNESCO
-            World Heritage site.
-          </p>
-        </article>
-        <article class="tour-card">
-          <img
-            src="https://images.unsplash.com/photo-1518112161204-81c0ed25e1c8?auto=format&fit=crop&w=800&q=80"
-            alt="Sapa Trip"
-            loading="lazy"
-          />
-          <h4>Sapa Mountains Trek</h4>
-          <p>
-            Trek stunning terraced rice fields and explore ethnic minority villages
-            in misty mountains.
-          </p>
-        </article>
-      </div>
-
-      <!-- Central Vietnam -->
-      <h3 class="region-title">Central Vietnam Tours</h3>
-      <div class="tours-grid">
-        <article class="tour-card">
-          <img
-            src="https://images.unsplash.com/photo-1544716278-f7e0c11b4967?auto=format&fit=crop&w=800&q=80"
-            alt="Danang City Tour"
-            loading="lazy"
-          />
-          <h4>Danang City Tour</h4>
-          <p>
-            Discover Marble Mountains, Dragon Bridge, and relax on My Khe Beach.
-          </p>
-        </article>
-        <article class="tour-card">
-          <img
-            src="https://images.unsplash.com/photo-1533587851505-0cddadf769d6?auto=format&fit=crop&w=800&q=80"
-            alt="Hoi An Ancient Town"
-            loading="lazy"
-          />
-          <h4>Hoi An Ancient Town</h4>
-          <p>
-            Stroll lantern-lit streets, enjoy riverside markets, and traditional
-            cuisine.
-          </p>
-        </article>
-        <article class="tour-card">
-          <img
-            src="https://images.unsplash.com/photo-1501869150079-2b0a7a77e63f?auto=format&fit=crop&w=800&q=80"
-            alt="Hue Imperial City"
-            loading="lazy"
-          />
-          <h4>Hue Imperial City</h4>
-          <p>
-            Explore the historic Citadel, royal tombs, and serene Perfume River.
-          </p>
-        </article>
-      </div>
-
-      <!-- Southern Vietnam -->
-      <h3 class="region-title">Southern Vietnam Tours</h3>
-      <div class="tours-grid">
-        <article class="tour-card">
-          <img
-            src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=800&q=80"
-            alt="Mekong Delta Tour"
-            loading="lazy"
-          />
-          <h4>Mekong Delta Tour</h4>
-          <p>
-            Cruise tranquil canals, visit floating markets, and taste tropical
-            fruits.
-          </p>
-        </article>
-        <article class="tour-card">
-          <img
-            src="https://images.unsplash.com/photo-1508672019048-805c876b67e2?auto=format&fit=crop&w=800&q=80"
-            alt="Cu Chi Tunnels"
-            loading="lazy"
-          />
-          <h4>Cu Chi Tunnels</h4>
-          <p>
-            Discover the historic underground tunnels used during the Vietnam War.
-          </p>
-        </article>
-        <article class="tour-card">
-          <img
-            src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80"
-            alt="Phu Quoc Island"
-            loading="lazy"
-          />
-          <h4>Phu Quoc Island</h4>
-          <p>Relax on pristine beaches and explore vibrant island life.</p>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- ABOUT -->
-  <section id="about" class="about-section">
-    <div class="container">
-      <h2>About GONAM TRAVEL</h2>
-      <p>
-        At GONAM TRAVEL, we craft unforgettable journeys across Vietnam. With
-        expert local guides, tailor-made experiences, and 24/7 support, your
-        dream trip awaits.
-      </p>
-    </div>
+  <section id="why-us" class="why-us-section">
+    <h2>Why Choose GoNam Travel?</h2>
+    <p>We offer tailored tours with local expertise, unforgettable experiences, and personalized service across Vietnam. From north to south, we make every journey unique, comfortable, and culturally rich. Your adventure, your way!</p>
   </section>
 
   <!-- CONTACT -->
   <section id="contact" class="contact-section">
-    <div class="container">
-      <h2>Contact Us</h2>
-      <p><strong>Email:</strong> info.gonamtravel@gmail.com</p>
-      <p><strong>Phone / WhatsApp:</strong> +84 334 780 490</p>
-      <p>
-        <strong>Office Location:</strong> Ninh Khanh, Que Phuoc Town, Danang City,
-        Vietnam
-      </p>
-      <form id="contactForm">
-        <input type="text" placeholder="Your Name" required />
-        <input type="email" placeholder="Your Email" required />
-        <textarea placeholder="Your Message" required></textarea>
-        <button type="submit" class="btn btn-primary">Send Message</button>
-      </form>
-    </div>
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p>Email: info.gonamtravel@gmail.com | WhatsApp: +84 334 780 490</p>
+    <p>Office: Ninh Khanh, Que Phuoc Town, Danang City, Vietnam</p>
   </section>
 
   <!-- FOOTER -->
-  <footer class="footer">© 2026 GONAM TRAVEL. All Rights Reserved.</footer>
+  <footer class="footer">
+    &copy; 2026 GoNam Travel. All Rights Reserved.
+  </footer>
 
-  <!-- WhatsApp floating button -->
-  <a
-    href="https://wa.me/84334780490"
-    target="_blank"
-    class="whatsapp-button"
-    aria-label="Chat with us on WhatsApp"
-    ><img
-      src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
-      alt="WhatsApp"
-  /></a>
+  <!-- WHATSAPP FLOATING BUTTON -->
+  <a href="https://wa.me/84334780490" class="whatsapp-button" target="_blank">
+    <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="WhatsApp">
+  </a>
+
 </body>
 </html>
