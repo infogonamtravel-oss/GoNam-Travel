@@ -5,121 +5,132 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>GoNam Travel | Your Vietnam, Your Way</title>
 <link rel="stylesheet" href="style.css">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
-
 <body>
 
 <!-- HEADER -->
 <header class="header">
-  <img class="logo" src="https://i.ibb.co/7Y7S1K7/gonam-logo.jpg" alt="GoNam Travel Logo">
+  <!-- Replace logo.png with your own logo file in assets/ -->
+  <img src="assets/logo.png" alt="GoNam Travel Logo">
   <nav>
     <a href="#hero">Home</a>
     <a href="#tours">Tours</a>
-    <a href="#why">Why Us</a>
+    <a href="#why-us">Why Us</a>
     <a href="#contact">Contact</a>
   </nav>
 </header>
 
 <!-- HERO -->
-<section id="hero" class="hero">
-  <div class="hero-text">
+<section id="hero">
+  <!-- Replace hero.jpg with your own chosen hero image -->
+  <div class="hero-bg" style="background-image: url('assets/hero.jpg');"></div>
+  <div class="hero-content">
     <h1>Explore Vietnam</h1>
-    <h2>Your Vietnam, Your Way</h2>
-    <a href="#tours" class="hero-btn">Discover Tours</a>
+    <p>Your Vietnam, Your Way</p>
+    <a href="#tours" class="btn-hero">Discover Tours</a>
   </div>
 </section>
 
 <!-- TOURS -->
-<section id="tours" class="tours">
+<section id="tours">
   <h2 class="section-title">Vietnam Sightseeing Tours</h2>
+  <div class="tours-container">
 
-  <div class="tour-grid">
-
-    <!-- Hanoi -->
-    <div class="tour-card">
-      <img src="https://images.unsplash.com/photo-1584362917163-b29cdbb4383a?auto=format&fit=crop&w=1600&q=80" alt="Hanoi City">
+    <!-- HANOI -->
+    <div class="tour-box">
+      <!-- Replace hanoi.jpg with your own Hanoi tour image -->
+      <img src="assets/hanoi.jpg" alt="Hanoi City Tour">
       <h3>Hanoi City Tour</h3>
-      <p>Explore the vibrant capital of Vietnam, where history meets modern life. Visit landmarks like the Temple of Literature, Ho Chi Minh Mausoleum, and One Pillar Pagoda. Wander through the bustling Old Quarter, and relax by the serene Hoan Kiem Lake. Enjoy authentic street food and cultural experiences at every corner.</p>
+      <p>Explore the vibrant capital of Vietnam, where history meets modern life. Visit the Temple of Literature, Ho Chi Minh Mausoleum, One Pillar Pagoda, and the bustling Old Quarter. Stroll around Hoan Kiem Lake and soak in authentic street life. This tour captures tradition, cuisine, and cultural charm in every step.</p>
     </div>
 
-    <!-- Halong Bay -->
-    <div class="tour-card">
-      <img src="https://images.unsplash.com/photo-1506214580-4cbd1fa2e7cf?auto=format&fit=crop&w=1600&q=80" alt="Halong Bay">
+    <!-- HALONG BAY -->
+    <div class="tour-box">
+      <!-- Replace halong.jpg with your own Halong Bay image -->
+      <img src="assets/halong.jpg" alt="Halong Bay Cruise">
       <h3>Halong Bay Cruise</h3>
-      <p>Sail through the stunning emerald waters of Halong Bay, dotted with thousands of limestone islands. Choose between day or overnight cruises for a full experience. Enjoy kayaking, cave exploration, and fresh seafood onboard. Witness one of Vietnam’s most breathtaking natural wonders.</p>
+      <p>Sail through the emerald waters of Halong Bay with its towering limestone islands. Choose a day cruise or overnight sailing for full scenic immersion. Kayak, swim, and visit hidden caves along the route. Enjoy fresh seafood and unforgettable views on the deck.</p>
     </div>
 
-    <!-- Ninh Binh -->
-    <div class="tour-card">
-      <img src="https://images.unsplash.com/photo-1584352041452-4c813541ed4c?auto=format&fit=crop&w=1600&q=80" alt="Ninh Binh">
+    <!-- NINH BINH -->
+    <div class="tour-box">
+      <!-- Replace ninhbinh.jpg with your own Ninh Binh image -->
+      <img src="assets/ninhbinh.jpg" alt="Ninh Binh Tour">
       <h3>Ninh Binh Tour</h3>
-      <p>Discover the “Halong Bay on land” in Ninh Binh, featuring stunning karst landscapes and rivers. Visit Bai Dinh Pagoda, Hoa Lu Ancient Capital, and enjoy a peaceful boat ride through Tam Coc or Trang An. The serene countryside and towering limestone cliffs create perfect photo opportunities. Experience traditional rural life along the way.</p>
+      <p>Discover the stunning “Halong Bay on land” with limestone karsts rising from emerald rice fields. Visit Bai Dinh Pagoda and Hoa Lu ancient capital, then boat through Tam Coc or Trang An. Quiet villages and unique landscapes make this tour truly special. A peaceful experience away from the bustle.</p>
     </div>
 
-    <!-- Sapa -->
-    <div class="tour-card">
-      <img src="https://images.unsplash.com/photo-1601332424981-3d0a09e82431?auto=format&fit=crop&w=1600&q=80" alt="Sapa">
+    <!-- SAPA -->
+    <div class="tour-box">
+      <!-- Replace sapa.jpg with your own Sapa image -->
+      <img src="assets/sapa.jpg" alt="Sapa Trip">
       <h3>Sapa Trip</h3>
-      <p>Venture into the misty mountains of Sapa, home to terraced rice fields and ethnic minorities. Visit Cat Cat Village and Moana viewpoints, and take a cable car to Fansipan Peak. Experience local culture through traditional markets and homestays. The stunning landscapes make it one of Vietnam’s most photographed regions.</p>
+      <p>Journey into the mountains of Sapa and witness breathtaking terraced rice fields. Visit Cat Cat Village and Moana viewpoints, and ascend Fansipan Peak by cable car. Meet ethnic communities, enjoy local markets, and breathe fresh mountain air. Sapa is a paradise for nature lovers.</p>
     </div>
 
-    <!-- Ba Na Hills -->
-    <div class="tour-card">
-      <img src="https://images.unsplash.com/photo-1598804507431-7b2d994c9a9a?auto=format&fit=crop&w=1600&q=80" alt="Ba Na Hills">
+    <!-- BA NA HILLS -->
+    <div class="tour-box">
+      <!-- Replace banahills.jpg with your own Ba Na Hills image -->
+      <img src="assets/banahills.jpg" alt="Ba Na Hills Tour">
       <h3>Ba Na Hills Tour</h3>
-      <p>Enjoy panoramic views from Ba Na Hills, including the iconic Golden Bridge. Explore the charming French Village, vibrant flower gardens, and cool mountain air. Take a scenic cable car ride for breathtaking vistas. A perfect mix of adventure, culture, and relaxation.</p>
+      <p>Experience the iconic Golden Bridge held by giant hands and stroll the French Village. Take scenic cable car rides with panoramic mountain views. Explore colorful flower gardens and cool weather high above Danang. Perfect for photos, fun, and relaxation.</p>
     </div>
 
-    <!-- Hoi An -->
-    <div class="tour-card">
-      <img src="https://images.unsplash.com/photo-1551882549-2c268f48f5e0?auto=format&fit=crop&w=1600&q=80" alt="Hoi An">
-      <h3>Hoi An Ancient Town</h3>
-      <p>Step into the magical lantern-lit streets of Hoi An, a UNESCO World Heritage site. Visit ancient merchant houses, riverside cafés, and vibrant night markets. Experience traditional crafts, local cuisine, and the peaceful riverside atmosphere. Hoi An perfectly blends culture, history, and charm.</p>
+    <!-- HOI AN -->
+    <div class="tour-box">
+      <!-- Replace hoian.jpg with your own Hoi An image -->
+      <img src="assets/hoian.jpg" alt="Hoi An Tour">
+      <h3>Hoi An Tour</h3>
+      <p>Step into the lantern-lit streets of Hoi An’s ancient town—a UNESCO World Heritage site. Explore old houses, riverside cafés, and bustling local markets. Enjoy authentic Vietnamese cuisine and traditional craft villages. A magical blend of past and present.</p>
     </div>
 
-    <!-- Coconut Forest -->
-    <div class="tour-card">
-      <img src="https://images.unsplash.com/photo-1545972152-5d252e0c1e07?auto=format&fit=crop&w=1600&q=80" alt="Coconut Forest">
-      <h3>Coconut Forest / Village</h3>
-      <p>Travel through serene canals in the Coconut Forest using traditional basket boats. Observe daily life in local villages along the waterways. Enjoy the natural scenery and peaceful atmosphere. A relaxing and authentic experience of rural Vietnam.</p>
+    <!-- COCONUT FOREST -->
+    <div class="tour-box">
+      <!-- Replace coconut.jpg with your own Coconut Forest image -->
+      <img src="assets/coconut.jpg" alt="Coconut Forest/Village">
+      <h3>Coconut Forest / Village Tour</h3>
+      <p>Navigate peaceful waterways by unique basket boats in the Coconut Forest. Observe daily village life, sample local fruits, and enjoy serene natural surroundings. A relaxed, authentic glimpse of rural Vietnam. Ideal for nature lovers and culture seekers.</p>
     </div>
 
-    <!-- Hue -->
-    <div class="tour-card">
-      <img src="https://images.unsplash.com/photo-1561047029-3000f68f37cc?auto=format&fit=crop&w=1600&q=80" alt="Hue">
-      <h3>Hue Imperial City</h3>
-      <p>Explore Vietnam’s former royal capital, rich with history and architecture. Visit the Imperial Citadel, royal tombs, and pagodas along the scenic Perfume River. Learn about the Nguyen Dynasty and Vietnam’s royal heritage. The city offers a deep cultural experience for every traveler.</p>
+    <!-- HUE -->
+    <div class="tour-box">
+      <!-- Replace hue.jpg with your own Hue image -->
+      <img src="assets/hue.jpg" alt="Hue Tour">
+      <h3>Hue Imperial Tour</h3>
+      <p>Step back in time in Hue, the ancient imperial capital of Vietnam. Visit the Imperial Citadel, royal tombs, and serene pagodas along the Perfume River. The historical depth and peaceful riverside views offer a rich cultural journey. A deeply meaningful experience.</p>
     </div>
 
-    <!-- Mekong Delta -->
-    <div class="tour-card">
-      <img src="https://images.unsplash.com/photo-1581709116556-62fdbf74d7f7?auto=format&fit=crop&w=1600&q=80" alt="Mekong Delta">
+    <!-- MEKONG -->
+    <div class="tour-box">
+      <!-- Replace mekong.jpg with your own Mekong image -->
+      <img src="assets/mekong.jpg" alt="Mekong Delta Tour">
       <h3>Mekong Delta Tour</h3>
-      <p>Discover the rivers, canals, and floating markets of the Mekong Delta. Visit local villages, fruit orchards, and traditional craft workshops. Experience the rich agricultural life and authentic culture of southern Vietnam. A journey full of colors, tastes, and sights.</p>
+      <p>Discover the vibrant waterways of the Mekong Delta, with canals, floating markets, and lush orchards. Boat through villages, try fresh tropical fruits, and see local crafts at work. Authentic cultural encounters await in this river network. A journey full of color and flavor.</p>
     </div>
 
-    <!-- Phu Quoc -->
-    <div class="tour-card">
-      <img src="https://images.unsplash.com/photo-1570132259576-301c3e5c541f?auto=format&fit=crop&w=1600&q=80" alt="Phu Quoc">
-      <h3>Phu Quoc Island</h3>
-      <p>Relax on tropical beaches with crystal-clear waters. Explore Vin Safari, VinWonders, and enjoy island hopping by speedboat. Take scenic cable car rides and discover northern and southern parts of the island. Perfect for adventure, leisure, and tropical photography.</p>
+    <!-- PHU QUOC -->
+    <div class="tour-box">
+      <!-- Replace phuquoc.jpg with your own Phu Quoc image -->
+      <img src="assets/phuquoc.jpg" alt="Phu Quoc Tour">
+      <h3>Phu Quoc Island Tour</h3>
+      <p>Relax on sun-kissed beaches and explore tropical wonders in Phu Quoc. Visit Vin Safari and VinWonders, enjoy multi-island boat trips, and scenic cable rides. Discover both northern and southern island charms. Perfect for beach lovers and adventure seekers alike.</p>
     </div>
 
-    <!-- Nha Trang -->
-    <div class="tour-card">
-      <img src="https://images.unsplash.com/photo-1551882549-0b8277e17726?auto=format&fit=crop&w=1600&q=80" alt="Nha Trang">
-      <h3>Nha Trang</h3>
-      <p>Enjoy sun-soaked beaches, vibrant nightlife, and island tours. Discover snorkeling, water sports, and coastal seafood cuisine. Relax and explore one of Vietnam’s most beautiful coastal cities. Perfect for families, couples, and solo travelers.</p>
+    <!-- NHA TRANG -->
+    <div class="tour-box">
+      <!-- Replace nhatrang.jpg with your own Nha Trang image -->
+      <img src="assets/nhatrang.jpg" alt="Nha Trang Tour">
+      <h3>Nha Trang Tour</h3>
+      <p>Enjoy golden beaches, vibrant coastal life, and island hopping in Nha Trang. Snorkel in clear waters, explore marine life, and taste fresh seafood. The city blends beach relaxation with exciting water activities. A great destination for all travelers.</p>
     </div>
 
   </div>
 </section>
 
 <!-- WHY US -->
-<section id="why" class="why">
+<section id="why-us" class="why-us">
   <h2>Why Choose GoNam Travel?</h2>
-  <p>Local expertise, customized itineraries, trusted service, and unforgettable experiences across Vietnam. We don’t sell tours — we create journeys.</p>
+  <p>We offer customized tours, local expertise, and unforgettable experiences across Vietnam. Your adventure, your way! From north to south, we tailor every journey with comfort, culture, and fun in mind.</p>
 </section>
 
 <!-- CONTACT -->
@@ -127,16 +138,16 @@
   <h2>Contact Us</h2>
   <p>Email: info.gonamtravel@gmail.com</p>
   <p>Phone / WhatsApp: +84 334 780 490</p>
-  <p>Danang City, Vietnam</p>
+  <p>Office: Ninh Khanh, Que Phuoc Town, Danang City, Vietnam</p>
 </section>
 
 <footer>
   © 2026 GoNam Travel. All Rights Reserved.
 </footer>
 
-<!-- WHATSAPP -->
-<a class="whatsapp" href="https://wa.me/84334780490" target="_blank">
-  <img src="https://img.icons8.com/color/48/whatsapp--v1.png">
+<!-- WHATSAPP BUTTON -->
+<a class="whatsapp-btn" href="https://wa.me/84334780490" target="_blank">
+  <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="WhatsApp">
 </a>
 
 </body>
